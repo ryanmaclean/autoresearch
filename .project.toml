@@ -1,0 +1,12 @@
+schema = "ryanlab.project.v1"
+name = "autoresearch"
+status = "reference"
+role = "Fixed-budget autonomous experiment methodology"
+
+canonical_for = ["experiment-loop-method"]
+integrates_with = ["smolfire"]
+do_not_implement = ["runtime-state", "orchestration-state"]
+
+registry = "ryanmaclean/skills:docs/PROJECTS.md"
+glossary = "ryanmaclean/skills:docs/GLOSSARY.md"
+benchmark_schema = "ryanmaclean/skills:schemas/bench.v1.schema.json"
